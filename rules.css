@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background: linear-gradient(rgb(34, 2, 50),rgb(94, 5, 153));
+    padding: 5px;
+    height: 100vh;
+}
+
+h1{
+    margin: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+li{
+    margin: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    padding: 5px;
+    border-radius: 30px;
+   background-color: white;
+   color: rgb(34, 2, 50);
+    
+}

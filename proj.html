@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="proj.css">
+</head>
+<body>
+    <header>
+    <h2 style="background-color: azure; padding: 5px;">WELCOME</h2>
+    <ul>
+        <li><a href="proj.html">HOME</a></li> 
+        <li><a href="rules.html">RULES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</header>
+
+    <div class="header">
+        <h1>QUIZ GAME</h1>
+    </div>
+    <div class="divvv">
+        <p id="Q" onclick="getquest(questions)"></p>
+    </div>
+    
+    <div>
+        
+        <p id="Q" style="color: black;"></p>
+    </div>
+   
+   <div class="div1">
+    <button id="btn1" onclick="check(questions[count].reponses.a)"></button>
+    <button id="btn2" onclick="check(questions[count].reponses.b)"></button>
+    <button id="btn3" onclick="check(questions[count].reponses.c)"></button>
+    
+   </div>
+    
+    
+   <button class="quest" id="Q" onclick="getquest(questions)">NEXT</button>
+   <button class="quest" onclick="tryagain()">RETRY</button>
+</body>
+<script src="proj.js"></script>
+</html>
